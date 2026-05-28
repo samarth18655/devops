@@ -1,0 +1,15 @@
+backups
+files.txt
+gods.txt
+hero.txt
+logs
+maggie.txt
+mix.log
+names.txt
+Node.gitignore
+oggy.txt
+old_backups
+server.log
+story.txt
+test.sh
+users.json

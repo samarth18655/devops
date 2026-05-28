@@ -1,0 +1,3 @@
+ram,hanuman,varaha,narsimha
+laxmi,kuber
+vishnu,mahesh,bramha
