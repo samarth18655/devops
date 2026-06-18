@@ -1,12 +1,18 @@
-name: Hello Workflow
+name: Python Workflow
 
 on:
   push:
 
 jobs:
-  hello:
+  run-python:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print Message
-        run: echo "Hello Samarth, GitHub Actions is working!"
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Verify Python
+        run: python --version
+
+      - name: Run Python Script
+        run: python app.py
